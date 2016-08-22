@@ -27,8 +27,10 @@ public class MainClass {
 		List<Integer> fList = FibonacciNumber.getFibonacciNumberList(21);
 		for (Integer item : fList) {
 			System.out.println(item.toString());
-
 		}
+		//(4)進捗どうですか？
+		System.out.println("(4)進捗どうですか？");
+		System.out.println(ShinchokuDodesuka.getShinchokuDodesuka());
 	}
 
 }
