@@ -37,7 +37,7 @@ public class MainClass {
 
 		//(5) カレンダー出力
 		System.out.println("(5) カレンダー出力");
-		MyCalendar.outputCalendar(1982, 7);
+		MyCalendar.outputCalendar(2016, 8);
 		System.out.println("");
 
 	}
