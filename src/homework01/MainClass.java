@@ -28,9 +28,18 @@ public class MainClass {
 		for (Integer item : fList) {
 			System.out.println(item.toString());
 		}
+		System.out.println("");
+
 		//(4)進捗どうですか？
 		System.out.println("(4)進捗どうですか？");
 		System.out.println(ShinchokuDodesuka.getShinchokuDodesuka());
+		System.out.println("");
+
+		//(5) カレンダー出力
+		System.out.println("(5) カレンダー出力");
+		MyCalendar.outputCalendar(1982, 7);
+		System.out.println("");
+
 	}
 
 }
