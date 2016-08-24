@@ -35,9 +35,14 @@ public class MainClass {
 		System.out.println(ShinchokuDodesuka.getShinchokuDodesuka());
 		System.out.println("");
 
-		//(5) カレンダー出力
+		//(5)カレンダー出力
 		System.out.println("(5) カレンダー出力");
 		MyCalendar.outputCalendar(2016, 8);
+		System.out.println("");
+
+		//(6)フォルダツリー表示
+		System.out.println("(6)フォルダツリー表示");
+		FolderTree.outputTree("D:\\test");
 		System.out.println("");
 
 	}

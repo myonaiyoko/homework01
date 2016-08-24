@@ -4,6 +4,11 @@ import java.util.Calendar;
 
 public class MyCalendar {
 
+	/**
+	 * 指定した年月のカレンダーをコンソール出力する
+	 * @param year
+	 * @param month
+	 */
 	public static void outputCalendar(int year, int month){
 
 		month --;
