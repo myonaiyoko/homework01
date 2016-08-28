@@ -45,6 +45,15 @@ public class MainClass {
 		FolderTree.outputTree("D:\\test");
 		System.out.println("");
 
+		//(7)テキスト検索
+		System.out.println("(7)テキスト検索");
+		SearchText.outputMatches("D:\\test\\test.txt","test");
+		System.out.println("");
+
+		//(8)テキストエンコード変換
+		System.out.println("((8)テキストエンコード変換");
+		TextEncodeUTF8.encodeUTF8("D:\\test\\test.txt");
+		System.out.println("");
 	}
 
 }
